@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Zurich Light BT;
+    src: url(Fonts/Zurich\ Light\ BT.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Zurich Light BT, sans-serif;
+    height: auto;
+    width: auto;
+}
+
+// Variables
+
+$medida1: 80vw;
+$color1: #0b2d84;
+$color2: black;
+$color3: white;
+
+body{
+    color: $color3;
+    background-color: $color1;
+    height: auto;
+}
+
+@import "_foot_head";
+@import "_index";
+@import "_marca";
+@import "_vehiculo";
+@import "_versiones";
+@import "_acercade";
